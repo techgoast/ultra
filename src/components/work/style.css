@@ -1,0 +1,28 @@
+.work h2 {
+  padding: 50px 0;
+  color: #747272;
+}
+.work .items {
+  display: flex;
+  justify-content: space-between;
+}
+.work .item {
+  width: 30%;
+  text-align: center;
+  border: 1px solid #747272;
+}
+.work .item .icon {
+  padding: 20px 0;
+}
+.work .item h4 {
+  font-size: 20px;
+  color: orangered;
+}
+.work .item hr {
+  width: 60%;
+  margin: 20px auto;
+}
+.work .item p {
+  padding: 0 10px 50px;
+  font-size: 14px;
+}

@@ -1,0 +1,31 @@
+.social {
+  display: flex;
+  padding-bottom: 0;
+}
+.social > div {
+  width: calc(100% / 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+.social .face {
+  background-color: dodgerblue;
+}
+.social .twitter {
+  background-color: cornflowerblue;
+}
+.social .pint {
+  background-color: crimson;
+}
+.social .icon i {
+  padding: 10px;
+  background-color: white;
+  margin-right: 10px;
+  color: #747272;
+}
+.social .text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}

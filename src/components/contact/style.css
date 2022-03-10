@@ -1,0 +1,37 @@
+.contact {
+  padding: 165px 0 20px;
+  text-align: center;
+}
+.contact form {
+  width: 70%;
+  margin: auto;
+  padding: 20px 0 0;
+}
+.contact form input {
+  display: block;
+  padding: 5px;
+  margin: 10px 0;
+  outline: none;
+}
+.contact .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact .flex input {
+  width: 49%;
+}
+.contact .subject,
+.contact textarea {
+  width: 100%;
+  outline: none;
+}
+.contact textarea {
+  height: 200px;
+  background-color: #ddd;
+}
+.contact [type="submit"] {
+  width: 50%;
+  margin: 10px auto;
+  cursor: pointer;
+}

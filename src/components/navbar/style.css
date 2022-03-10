@@ -1,0 +1,24 @@
+nav {
+  border-bottom: 2px solid #747272;
+  margin-bottom: 10px;
+  padding: 25px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+nav .container {
+  display: flex;
+  align-items: center;
+}
+nav .container .logo {
+  width: 30%;
+}
+nav .container ul {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+}

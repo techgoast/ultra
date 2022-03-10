@@ -1,0 +1,27 @@
+.about {
+  background-image: url(../../../public/images/creative/about-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.about .container {
+  display: flex;
+  justify-content: flex-end;
+}
+.about .content {
+  width: 50%;
+}
+.about .content span {
+  font-weight: bold;
+  font-size: 25px;
+}
+.about .content h2 {
+  color: orangered;
+  padding: 30px 0;
+}
+.about .content p {
+  line-height: 1.6;
+  color: #747272;
+  margin: 20px 0;
+  font-weight: bold;
+}

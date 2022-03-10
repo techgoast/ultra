@@ -1,0 +1,29 @@
+.profile .container {
+  display: flex;
+}
+.profile .data,
+.profile .skills {
+  width: 50%;
+}
+.profile .data div {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.profile .data div h4 {
+  width: 20%;
+}
+.profile .data div p span {
+  color: red;
+  text-transform: lowercase;
+}
+.profile .skills .skill .show {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+}
+.profile .skills .skill .progress {
+  height: 2px;
+  background-color: orangered;
+}
