@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "techgoast.github.io/ultra/precache-manifest.c6a3cff0a0d37b899d163df29e0b5508.js"
+  "/ultra/precache-manifest.733583edb4b14e5fe03f240b0bb69dbb.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("techgoast.github.io/ultra/index.html", {
+workbox.routing.registerNavigationRoute("/ultra/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
