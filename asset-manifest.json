@@ -1,17 +1,16 @@
 {
-  "files": {
-    "main.css": "/ultra/static/css/main.c5be9c53.css",
-    "main.js": "/ultra/static/js/main.f88bbba1.js",
-    "static/js/787.d3befce1.chunk.js": "/ultra/static/js/787.d3befce1.chunk.js",
-    "static/media/about-bg.jpg": "/ultra/static/media/about-bg.973f25157e118ea212ef.jpg",
-    "static/media/home-bg.jpg": "/ultra/static/media/home-bg.14eacc1c4c641a9e0e83.jpg",
-    "index.html": "/ultra/index.html",
-    "main.c5be9c53.css.map": "/ultra/static/css/main.c5be9c53.css.map",
-    "main.f88bbba1.js.map": "/ultra/static/js/main.f88bbba1.js.map",
-    "787.d3befce1.chunk.js.map": "/ultra/static/js/787.d3befce1.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.c5be9c53.css",
-    "static/js/main.f88bbba1.js"
-  ]
+  "main.css": "techgoast.github.io/ultra/static/css/main.18b1ceda.chunk.css",
+  "main.js": "techgoast.github.io/ultra/static/js/main.092d5ec5.chunk.js",
+  "main.js.map": "techgoast.github.io/ultra/static/js/main.092d5ec5.chunk.js.map",
+  "static/js/1.aea4a5bd.chunk.js": "techgoast.github.io/ultra/static/js/1.aea4a5bd.chunk.js",
+  "static/js/1.aea4a5bd.chunk.js.map": "techgoast.github.io/ultra/static/js/1.aea4a5bd.chunk.js.map",
+  "static/js/2.c759978c.chunk.js": "techgoast.github.io/ultra/static/js/2.c759978c.chunk.js",
+  "static/js/2.c759978c.chunk.js.map": "techgoast.github.io/ultra/static/js/2.c759978c.chunk.js.map",
+  "runtime~main.js": "techgoast.github.io/ultra/static/js/runtime~main.b61a9565.js",
+  "runtime~main.js.map": "techgoast.github.io/ultra/static/js/runtime~main.b61a9565.js.map",
+  "static/media/style.css": "techgoast.github.io/ultra/static/media/home-bg.be8b953f.webp",
+  "static/css/main.18b1ceda.chunk.css.map": "techgoast.github.io/ultra/static/css/main.18b1ceda.chunk.css.map",
+  "index.html": "techgoast.github.io/ultra/index.html",
+  "precache-manifest.c6a3cff0a0d37b899d163df29e0b5508.js": "techgoast.github.io/ultra/precache-manifest.c6a3cff0a0d37b899d163df29e0b5508.js",
+  "service-worker.js": "techgoast.github.io/ultra/service-worker.js"
 }
