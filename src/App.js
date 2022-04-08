@@ -22,13 +22,12 @@ class App extends Component {
       <BrowserRouter>
         <Nav />
         <Routes>
-          <Route exact path="/" element={<Index />}/>
           <Route exact path="/ultra" element={<Index />}/>
-          <Route path="/work" element={<Work />}/>
-          <Route path="/portfolio" element={<Portfolio />}/>
-          <Route path="/resume" element={<Profile />}/>
-          <Route path="/about" element={<About />}/>
-          <Route path="/contact" element={<Contact />}/>
+          <Route path="/ultra/work" element={<Work />}/>
+          <Route path="/ultra/portfolio" element={<Portfolio />}/>
+          <Route path="/ultra/resume" element={<Profile />}/>
+          <Route path="/ultra/about" element={<About />}/>
+          <Route path="/ultra/contact" element={<Contact />}/>
         </Routes>
         <Footer />
       </BrowserRouter>
