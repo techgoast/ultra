@@ -1,15 +1,26 @@
 .about {
-  background-image: url(../../../public/images/creative/about-bg.jpg);
+  background-image: url("../../../public/images/creative/about-bg.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .about .container {
   display: flex;
   justify-content: flex-end;
 }
+@media (max-width: 767px) {
+  .about .container {
+    justify-content: center;
+  }
+}
 .about .content {
   width: 50%;
+}
+@media (max-width: 767px) {
+  .about .content {
+      width: 80%;
+  }
 }
 .about .content span {
   font-weight: bold;

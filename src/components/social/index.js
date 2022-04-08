@@ -8,7 +8,7 @@ class Social extends Component {
     }
 
     componentDidMount() {
-        axios.get("js/data.json")
+        axios.get("data.json")
         .then(res => {this.setState({
             social: res.data.social
         })})

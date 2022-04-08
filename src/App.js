@@ -23,11 +23,7 @@ class App extends Component {
         <Nav />
         <Routes>
           <Route exact path="/" element={<Index />}/>
-          <Route path="/all" element={<Index />}/>
-          <Route path="/html" element={<Index />}/>
-          <Route path="/photoshop" element={<Index />}/>
-          <Route path="/wordpress" element={<Index />}/>
-          <Route path="/mobile" element={<Index />}/>
+          <Route exact path="/ultra" element={<Index />}/>
           <Route path="/work" element={<Work />}/>
           <Route path="/portfolio" element={<Portfolio />}/>
           <Route path="/resume" element={<Profile />}/>

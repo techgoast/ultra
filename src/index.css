@@ -23,6 +23,11 @@ section {
   width: 85%;
   margin: auto;
 }
+@media(max-width: 767px) {
+  .container {
+    width: 98%;
+  }
+}
 ul {
   list-style: none;
 }

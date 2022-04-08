@@ -22,35 +22,43 @@
     "portfolio": [
         {
             "id": 1,
-            "image": "../images/Portfolio/portfolio-img1.jpg"
+            "image": "../images/Portfolio/portfolio-img1.jpg",
+            "tech": "html"
         },
         {
             "id": 2,
-            "image": "../images/Portfolio/portfolio-img2.jpg"
+            "image": "../images/Portfolio/portfolio-img2.jpg",
+            "tech": "photoshop"
         },
         {
             "id": 3,
-            "image": "../images/Portfolio/portfolio-img3.jpg"
+            "image": "../images/Portfolio/portfolio-img3.jpg",
+            "tech": "wordpress"
         },
         {
             "id": 4,
-            "image": "../images/Portfolio/portfolio-img4.jpg"
+            "image": "../images/Portfolio/portfolio-img4.jpg",
+            "tech": "mobile"
         },
         {
             "id": 5,
-            "image": "../images/Portfolio/portfolio-img5.jpg"
+            "image": "../images/Portfolio/portfolio-img5.jpg",
+            "tech": "html"
         },
         {
             "id": 6,
-            "image": "../images/Portfolio/portfolio-img6.jpg"
+            "image": "../images/Portfolio/portfolio-img6.jpg",
+            "tech": "photoshop"
         },
         {
             "id": 7,
-            "image": "../images/Portfolio/portfolio-img7.jpg"
+            "image": "../images/Portfolio/portfolio-img7.jpg",
+            "tech": "wordpress"
         },
         {
             "id": 8,
-            "image": "../images/Portfolio/portfolio-img8.jpg"
+            "image": "../images/Portfolio/portfolio-img8.jpg",
+            "tech": "mobile"
         }
     ],
     "social": [

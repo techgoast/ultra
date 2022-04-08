@@ -1,25 +1,38 @@
-import React from "react";
+import React, { Component } from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
 
-const Nav = () => {
-    return (
-        <nav>
-            <div className="container">
-                <div className="logo">
-                    <h2>ultra profile</h2>
+class Nav extends Component {
+    handleClick = () => {
+        document.querySelector("nav ul").classList.toggle("show");
+    }
+    handleClick2 = () => {
+        document.querySelector("nav ul").classList.remove("show");
+    }
+    render() {
+        return (
+            <nav>
+                <div className="container">
+                    <div className="logo">
+                        <h2>ultra profile</h2>
+                    </div>
+                    <ul>
+                        <li onClick={this.handleClick2}><Link to="/">home</Link></li>
+                        <li onClick={this.handleClick2}><Link to="/work">work</Link></li>
+                        <li onClick={this.handleClick2}><Link to="/portfolio">portfolio</Link></li>
+                        <li onClick={this.handleClick2}><Link to="/resume">resume</Link></li>
+                        <li onClick={this.handleClick2}><Link to="/about">about</Link></li>
+                        <li onClick={this.handleClick2}><Link to="/contact">contact</Link></li>
+                    </ul>
+                    <div className="icon" onClick={this.handleClick}>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
-                <ul>
-                    <li><Link to="/">home</Link></li>
-                    <li><Link to="/work">work</Link></li>
-                    <li><Link to="/portfolio">portfolio</Link></li>
-                    <li><Link to="/resume">resume</Link></li>
-                    <li><Link to="/about">about</Link></li>
-                    <li><Link to="/contact">contact</Link></li>
-                </ul>
-            </div>
-        </nav>
-    )
+            </nav>
+        )
+    }
 }
 
 export default Nav;

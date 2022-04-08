@@ -1,9 +1,20 @@
 .profile .container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .profile .data,
 .profile .skills {
   width: 50%;
+}
+@media (max-width: 767px) {
+  .profile .data,
+  .profile .skills {
+    width: 80%;
+  }
+  .profile .skills {
+    margin-top: 50px;
+  }
 }
 .profile .data div {
   display: flex;

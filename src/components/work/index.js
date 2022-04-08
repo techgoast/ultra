@@ -6,8 +6,12 @@ class Work extends Component {
         works: []
     }
     componentDidMount() {
-        axios.get("js/data.json")
-        .then(res => {this.setState({works:res.data.works})});
+        axios.get('data.json')
+        .then(res => {
+            this.setState({
+                works: res.data.works
+            });
+        })
     }
     render() {
         const {works} = this.state;
@@ -24,7 +28,7 @@ class Work extends Component {
         return (
             <section className="work">
                 <div className="container">
-                    <h2>my work</h2>
+                    <h2>my works</h2>
                     <div className="items">
                         {workList}
                     </div>

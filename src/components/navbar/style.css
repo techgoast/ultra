@@ -10,10 +10,16 @@ nav {
 }
 nav .container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 nav .container .logo {
   width: 30%;
+}
+@media(max-width: 767px) {
+  nav .container .logo {
+    width: 50%;
+  }
 }
 nav .container ul {
   width: 70%;
@@ -21,4 +27,39 @@ nav .container ul {
   justify-content: space-around;
   align-items: center;
   font-weight: bold;
+}
+@media(max-width: 767px) {
+  nav .container ul {
+    display: none;
+  }
+  nav .container .show {
+    display: block;
+    position: absolute;
+    bottom: -250px;
+    left: 0;
+    background-color: white;
+    z-index: 10000;
+    width: 100%;
+  }
+  nav .container .show li {
+    padding: 10px;
+  }
+}
+nav .container .icon {
+  width: 40px;
+  padding: 2px;
+  display: none;
+  cursor: pointer;
+}
+@media(max-width: 767px) {
+  nav .container .icon {
+    display: block;
+  }
+}
+nav .container .icon span {
+  display: block;
+  width: calc(100% - 4px);
+  height: 2px;
+  margin: 2px auto;
+  background-color: black;
 }

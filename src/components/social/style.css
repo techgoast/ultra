@@ -1,5 +1,7 @@
 .social {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   padding-bottom: 0;
 }
 .social > div {
@@ -8,6 +10,12 @@
   justify-content: center;
   align-items: center;
   padding: 100px 0;
+}
+@media (max-width: 767px) {
+  .social > div {
+    width: 100%;
+    padding: 50px;
+  }
 }
 .social .face {
   background-color: dodgerblue;

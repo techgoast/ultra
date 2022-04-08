@@ -4,12 +4,24 @@
 }
 .work .items {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .work .items  {
+    justify-content: center;
+  }
 }
 .work .item {
   width: 30%;
   text-align: center;
   border: 1px solid #747272;
+}
+@media (max-width: 767px) {
+  .work .item  {
+    width: 80%;
+    margin-top: 15px;
+  }
 }
 .work .item .icon {
   padding: 20px 0;
@@ -17,6 +29,11 @@
 .work .item h4 {
   font-size: 20px;
   color: orangered;
+}
+@media (max-width: 767px) {
+  .work .item h4 {
+    font-size: 18px;
+  }
 }
 .work .item hr {
   width: 60%;

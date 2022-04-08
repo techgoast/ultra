@@ -10,22 +10,39 @@
   justify-content: center;
   margin-bottom: 20px;
 }
-.portfolio .links a {
+.portfolio .links .link {
   padding: 10px 30px;
   cursor: pointer;
 }
+@media (max-width: 767px) {
+  .portfolio .links .link {
+    padding: 10px;
+  }
+}
 .portfolio .links .active,
-.portfolio .links a:hover {
+.portfolio .links .link:hover {
   background-color: orangered;
   color: white;
 }
 .portfolio .images {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+  position: relative;
 }
 .portfolio .images .image {
   width: 25%;
   position: relative;
+}
+@media (max-width: 991px) {
+  .portfolio .images .image {
+    width: 40%;
+  }
+}
+@media (max-width: 767px) {
+  .portfolio .images .image {
+    width: 80%;
+  }
 }
 .portfolio .images .image .overlay {
   width: 100%;
