@@ -22,37 +22,37 @@
     "portfolio": [
         {
             "id": 1,
-            "image": "/images/Portfolio/portfolio-img1.webp",
+            "image": "images/Portfolio/portfolio-img1.webp",
             "tech": "html"
         },
         {
             "id": 2,
-            "image": "/images/Portfolio/portfolio-img2.webp",
+            "image": "images/Portfolio/portfolio-img2.webp",
             "tech": "photoshop"
         },
         {
             "id": 3,
-            "image": "/images/Portfolio/portfolio-img3.webp",
+            "image": "images/Portfolio/portfolio-img3.webp",
             "tech": "wordpress"
         },
         {
             "id": 4,
-            "image": "/images/Portfolio/portfolio-img4.webp",
+            "image": "images/Portfolio/portfolio-img4.webp",
             "tech": "mobile"
         },
         {
             "id": 5,
-            "image": "/images/Portfolio/portfolio-img5.webp",
+            "image": "images/Portfolio/portfolio-img5.webp",
             "tech": "html"
         },
         {
             "id": 6,
-            "image": "/images/Portfolio/portfolio-img6.webp",
+            "image": "images/Portfolio/portfolio-img6.webp",
             "tech": "photoshop"
         },
         {
             "id": 7,
-            "image": "/images/Portfolio/portfolio-img7.webp",
+            "image": "images/Portfolio/portfolio-img7.webp",
             "tech": "wordpress"
         },
         {

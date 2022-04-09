@@ -17,12 +17,12 @@ class Nav extends Component {
                         <h2>ultra profile</h2>
                     </div>
                     <ul>
-                        <li onClick={this.handleClick2}><Link to="/ultra">home</Link></li>
-                        <li onClick={this.handleClick2}><Link to="/ultra/work">work</Link></li>
-                        <li onClick={this.handleClick2}><Link to="/ultra/portfolio">portfolio</Link></li>
-                        <li onClick={this.handleClick2}><Link to="/ultra/resume">resume</Link></li>
-                        <li onClick={this.handleClick2}><Link to="/ultra/about">about</Link></li>
-                        <li onClick={this.handleClick2}><Link to="/ultra/contact">contact</Link></li>
+                        <li onClick={this.handleClick2}><Link to="/">home</Link></li>
+                        <li onClick={this.handleClick2}><Link to="/work">work</Link></li>
+                        <li onClick={this.handleClick2}><Link to="/portfolio">portfolio</Link></li>
+                        <li onClick={this.handleClick2}><Link to="/resume">resume</Link></li>
+                        <li onClick={this.handleClick2}><Link to="/about">about</Link></li>
+                        <li onClick={this.handleClick2}><Link to="/contact">contact</Link></li>
                     </ul>
                     <div className="icon" onClick={this.handleClick}>
                         <span></span>
