@@ -13,8 +13,9 @@ import Footer from "./components/footer";
 
 
 
-class App extends Component {
 
+class App extends Component {
+  
   
 
   render() {

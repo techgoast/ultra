@@ -8,8 +8,9 @@ import Social from "../social";
 import Work from "../work";
 
 
-class Index extends Component {
 
+class Index extends Component {
+  
   render() {
     return (
       <div className="index">

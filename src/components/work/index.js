@@ -4,17 +4,17 @@ import axios from "axios";
 class Work extends Component {
     state = {
         works: []
-    }
-    componentDidMount() {
-        axios.get('data.json')
+      }
+      componentDidMount() {
+        axios.get("https://raw.githubusercontent.com/techgoast/ultra/master/public/data.json")
         .then(res => {
             this.setState({
-                works: res.data.works
+                works: res.data.works,
             });
         })
-    }
+      }
     render() {
-        const {works} = this.state;
+        const works = this.state.works;
         const workList = works.map(workItem => {
             return (
                 <div className="item" key={workItem.id}>

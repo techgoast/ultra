@@ -5,15 +5,16 @@ import axios from "axios";
 class Portfolio extends Component {
     state = {
         portfolio: []
-    }
-    componentDidMount() {
-        axios.get("data.json")
+      }
+      componentDidMount() {
+        axios.get("https://raw.githubusercontent.com/techgoast/ultra/master/public/data.json")
         .then(res => {
+            console.log(res.data.portfolio)
             this.setState({
                 portfolio: res.data.portfolio
-            });
+            })
         })
-    }
+      }
     handleClick = (e) => {
         document.querySelectorAll(".portfolio .links span").forEach(span => {
             span.classList.remove("active");
@@ -25,7 +26,7 @@ class Portfolio extends Component {
         });
     }
     render() {
-        const {portfolio} = this.state;
+        const portfolio = this.state.portfolio;
         const imageList = portfolio.map(item => {
             return (
                 <div className={`image ${item.tech}`}  key={item.id}>
