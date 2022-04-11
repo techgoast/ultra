@@ -4,17 +4,20 @@ import axios from "axios";
 
 class Portfolio extends Component {
     state = {
-        portfolio: []
+        portfolio: [],
+        images: []
       }
       componentDidMount() {
-        axios.get("https://raw.githubusercontent.com/techgoast/ultra/master/public/data.json")
-        .then(res => {
-            console.log(res.data.portfolio)
-            this.setState({
-                portfolio: res.data.portfolio
-            })
-        })
-      }
+        axios.all([
+            axios.get("https://raw.githubusercontent.com/techgoast/ultra/master/public/data.json"),
+            axios.get("https://api.github.com/repos/techgoast/ultra/contents/public/images/Portfolio?ref=master")
+        ])
+        .then(axios.spread((obj1, obj2) => {
+        this.setState({
+            portfolio:  obj1.data.portfolio,
+            images: obj2.data
+        })}))
+    }
     handleClick = (e) => {
         document.querySelectorAll(".portfolio .links span").forEach(span => {
             span.classList.remove("active");
@@ -27,11 +30,13 @@ class Portfolio extends Component {
     }
     render() {
         const portfolio = this.state.portfolio;
+        const imags = this.state.images;
         const imageList = portfolio.map(item => {
+            const imgno = item.id - 1;
             return (
                 <div className={`image ${item.tech}`}  key={item.id}>
                     <div className="overlay"></div>
-                    <img src={item.image} alt=""/>
+                    <img src={imags[imgno].download_url} alt=""/>
                     <button>show image</button>
                 </div>
             )
